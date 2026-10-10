@@ -1,6 +1,12 @@
+class InvalidBudgetError(Exception):
+    pass
+
 def check_budget(budget):
     if budget <= 0:
-        raise ValueError("Invalid Input")
-    else:
-        print("Budget accepted")
-check_budget(-100)
+        raise InvalidBudgetError("Invalid Input")
+
+    print("Budget accepted")
+try:
+    check_budget(-100)
+except InvalidBudgetError as e:
+    print(e)
