@@ -3,3 +3,6 @@ target = 11
 
 left = 0
 right = len(numbers) - 1
+while left <= right:
+    mid = (left + right) // 2
+    
