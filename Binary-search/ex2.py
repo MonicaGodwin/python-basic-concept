@@ -10,4 +10,6 @@ while left <= right:
         break
     elif numbers[mid] > target:
         right = mid - 1
-    
+    elif numbers[mid] < target:
+        left = mid + 1
+   
