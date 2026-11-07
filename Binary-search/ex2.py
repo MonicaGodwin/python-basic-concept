@@ -8,4 +8,6 @@ while left <= right:
     if numbers[mid] == target:
         print(mid)
         break
-   
+    elif numbers[mid] > target:
+        right = mid - 1
+    
