@@ -3,6 +3,7 @@ result = {}
 for num in numbers:
     if num in result:
         result[num] += 1
-    elif num not in result:
+    else:
         result[num] = 1
 print(result)
+
