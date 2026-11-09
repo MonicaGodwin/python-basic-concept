@@ -1,3 +1,5 @@
+# Checking membership between two arrays
+
 nums1 = [8, 2, 5, 7, 9, 3]
 nums2 = [4, 5, 8, 1, 3, 6]
 
