@@ -12,3 +12,5 @@ def lower_bound(nums, target):
         elif nums[mid] > target:
             right = mid - 1
     return answer
+result = lower_bound([1,2,2,3,5,6,7], 2)
+print(result)
