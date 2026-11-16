@@ -9,4 +9,6 @@ def lower_bound(nums, target):
             right = mid - 1
         elif nums[mid] < target:
             left = mid + 1
-        
+        elif nums[mid] > target:
+            right = mid - 1
+    return answer
