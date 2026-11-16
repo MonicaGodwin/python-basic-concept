@@ -7,4 +7,6 @@ def lower_bound(nums, target):
         if nums[mid] == target:
             answer = mid
             right = mid - 1
+        elif nums[mid] < target:
+            left = mid + 1
         
