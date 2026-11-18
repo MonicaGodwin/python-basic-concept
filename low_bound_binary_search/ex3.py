@@ -3,7 +3,7 @@ def isBadVersion(version):
 
 n = 10
 first_bad = 6
-left = 0
+left = 1
 right = n
 result = 0
 while left <= right:
